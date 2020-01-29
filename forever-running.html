@@ -11,13 +11,11 @@
 <title>Forever Running</title>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
-html { 
-  background:  url(http://images/mice.webm) no-repeat center center fixed; 
-  background-size: cover;
-}
-  
-<video src="images/mice.webm" controls>
-</video> 
+
+<video autoplay muted loop id="miceVideo">
+  <source src="images/mice.webm" type="video/webm">
+  Your browser does not support HTML5 video.
+</video>
   
 h1{
   font-family: 'Advent Pro', sans-serif;
